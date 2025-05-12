@@ -1,0 +1,60 @@
+# Data Cleaning and Preprocessing - Netflix Movies and TV Shows
+
+## 📌 Objective
+Clean and prepare the Netflix Movies and TV Shows dataset using **Microsoft Excel**, addressing issues like missing values, duplicates, inconsistent formatting, and incorrect data types to make the data ready for analysis.
+
+---
+
+## 🛠 Tools Used
+- Microsoft Excel
+- CSV File Format
+
+---
+
+## 📁 Dataset Overview
+The dataset includes information about content available on Netflix, including:
+- Title
+- Type (Movie or TV Show)
+- Director and Cast
+- Country
+- Date Added
+- Release Year
+- Rating
+- Duration
+- Genre
+- Description
+
+Source: [Netflix Movies and TV Shows on Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+
+---
+
+## 🧹 Data Cleaning Steps in Excel
+
+1. **Removed Duplicates** using the “Remove Duplicates” tool.
+2. **Handled Missing Values** by identifying blank cells and filling or deleting them based on context.
+3. **Standardized Text** values (e.g., consistent casing for `country`, `type`, etc.).
+4. **Converted Date Formats** (e.g., `Date Added` column formatted as dd-mm-yyyy).
+5. **Renamed Column Headers** to be clean and consistent (lowercase, no spaces).
+6. **Checked Data Types** manually to ensure consistency (e.g., `release_year` as number, `date_added` as date).
+
+---
+
+## ✅ Final Output
+- A cleaned Excel file named `netflix_cleaned.xlsx` ready for analysis or visualization.
+- Uniform formatting, no missing or duplicate entries, and properly structured columns.
+
+---
+
+## 📂 Files in This Repository
+- `netflix_cleaned.xlsx`: Cleaned dataset
+- `README.md`: Description of the task and process
+
+---
+
+## 🚀 What I Learned
+- Practical experience in cleaning real-world data using Excel
+- Importance of proper formatting, missing value handling, and naming consistency
+- Confidence in preparing structured datasets for further data analysis or modeling
+
+---
+
