@@ -58,6 +58,10 @@ The dataset contains information about medical appointments and whether or not p
     *done conditional formatting in columns for clear understanding.
 
 
+7. ** Sorting**
+   * sort data according to schedule dates
+
+
 
 
 ## Summary of Changes
@@ -69,5 +73,6 @@ The dataset contains information about medical appointments and whether or not p
 * Corrected inconsistent gender values.
 * Removed duplicate records.
 * conditional formatting.
+* sort by schedule dates
 
 The cleaned dataset is now ready for further analysis in Excel or export to other tools to understand the factors influencing no-shows.
