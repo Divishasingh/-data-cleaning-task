@@ -1,0 +1,66 @@
+# Data Cleaning for Medical Appointment No-Shows Dataset
+
+## Objective
+
+The primary goal of this task is to clean and prepare the "Medical Appointment No-Shows" dataset for analysis. This involves addressing potential data quality issues to ensure the data is accurate, consistent, and ready for modeling or reporting.
+
+## Dataset Description
+
+The dataset contains information about medical appointments and whether or not patients showed up for their appointments. Key fields may include:
+
+* Patient ID
+* Appointment Date and Time
+* Scheduled Date
+* Age
+* Gender
+* Neighborhood
+* Scholarship, Hypertension, Diabetes, Alcoholism (and other health conditions)
+* Received SMS notification
+* No-show status ("No-show": "Yes" indicates the patient *did not* show up)
+
+## Tools Used
+
+* **Microsoft Excel:** Used for data manipulation and cleaning.
+
+## Deliverables
+
+* A cleaned version of the medical appointment no-shows dataset.
+* This `README.md` file summarizing the cleaning process.
+
+## Cleaning Steps Performed
+
+1.  **Load the Data:**
+
+    * Opened the CSV file in Microsoft Excel.
+
+2.  **Inspect the Data:**
+
+    * Examined the first few rows and column types in Excel to get an initial overview of the data.
+
+3.  **Handle Missing Values:**
+
+    * Checked for missing values by identifying blank cells in Excel.
+       #no missing values
+4.  **Correct Data Types:**
+
+    * Converted 'Appointment Date' and 'Scheduled Date' to date format using Excel's "Format Cells" option.
+    * Checked that 'Age' was numeric (integer) and corrected the formatting if necessary.
+    * Checked that 'No-show' was a categorical variable with consistent values ('Yes'/'No').
+
+
+5.  **Remove Duplicates:**
+
+    * Removed duplicate records using Excel's "Remove Duplicates" feature, if any were found.
+
+
+
+## Summary of Changes
+
+(Provide a concise summary of the key changes made to the dataset. For example:)
+
+* Handled missing values in the Age column using the median.
+* Standardized date formats for appointment and scheduled dates.
+* Corrected inconsistent gender values.
+* Removed duplicate records.
+
+The cleaned dataset is now ready for further analysis in Excel or export to other tools to understand the factors influencing no-shows.
