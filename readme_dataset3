@@ -1,0 +1,68 @@
+# Data Cleaning for Mall Customer Segmentation Data
+
+## Objective
+
+The primary goal of this task is to clean and prepare the "Mall Customer Segmentation" dataset for analysis. This involves addressing potential data quality issues to ensure the data is accurate, consistent, and ready for customer segmentation modeling.
+
+## Dataset Description
+
+The dataset typically contains information about customers of a mall. Common features include:
+
+* **CustomerID:** A unique identifier for each customer.
+* **Gender:** The gender of the customer.
+* **Age:** The age of the customer.
+* **Annual Income:** The annual income of the customer.
+* **Spending Score:** A score assigned to the customer by the mall, based on their spending behavior.
+
+## Tools Used
+
+* **Microsoft Excel:** Used for data manipulation and cleaning.
+
+## Deliverables
+
+* A cleaned version of the mall customer segmentation dataset.
+* This `README.md` file summarizing the cleaning process.
+
+## Cleaning Steps Performed
+
+1.  **Load the Data:**
+
+    * Opened the CSV file in Microsoft Excel.
+
+2.  **Inspect the Data:**
+
+    * Examined the first few rows and column types in Excel to get an initial overview of the data.
+
+3.  **Handle Missing Values:**
+
+    * Checked for missing values by identifying blank cells in Excel.
+       #no missing values
+
+4.  **Correct Data Types:**
+
+    * Checked and corrected data types in Excel. For example:
+        * "Ensured 'CustomerID' was formatted as a number (integer)."
+        * "Ensured 'Age', 'Annual Income', and 'Spending Score' were formatted as numbers."
+
+
+5.  **Remove Duplicates:**
+
+    * Removed duplicate records using Excel's "Remove Duplicates" feature, if any were found.
+
+7.  **Feature Engineering (Optional):**
+
+    * (Describe any new features you created in Excel. For example:)
+        * "Created a new feature, 'Income\_per\_Age' by dividing 'Annual Income' by 'Age'."
+        * "You might describe binning 'Age' into categories using IF statements and creating a new column."
+
+
+## Summary of Changes
+
+(Provide a concise summary of the key changes made to the dataset. For example:)
+
+* Handled missing values in 'Age' and 'Annual Income'.
+* Standardized values in the 'Gender' column.
+* Checked for and addressed outliers.
+* Removed duplicate records.
+
+The cleaned dataset is now ready for exploratory data analysis and customer segmentation modeling to identify distinct customer groups.
