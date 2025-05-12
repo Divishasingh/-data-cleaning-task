@@ -38,7 +38,8 @@ The primary goal of this task was to clean and prepare the "marketing_campaign.c
     * Converted the "Dt\_Customer" column to a consistent date format (DD-MM-YYYY).
     * This was achieved using the "Format Cells" option (right-click -> "Format Cells" -> "Date").
 
-
+5. ** Sorting**
+   * sort data according to column id 
 
 ## Summary of Changes
 
