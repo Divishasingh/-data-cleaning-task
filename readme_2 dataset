@@ -41,8 +41,10 @@ The dataset contains information about medical appointments and whether or not p
 
     * Checked for missing values by identifying blank cells in Excel.
        #no missing values
+
 4.  **Correct Data Types:**
 
+    * coverted patient_id to zero decimals
     * Converted 'Appointment Date' and 'Scheduled Date' to date format using Excel's "Format Cells" option.
     * Checked that 'Age' was numeric (integer) and corrected the formatting if necessary.
     * Checked that 'No-show' was a categorical variable with consistent values ('Yes'/'No').
@@ -51,6 +53,10 @@ The dataset contains information about medical appointments and whether or not p
 5.  **Remove Duplicates:**
 
     * Removed duplicate records using Excel's "Remove Duplicates" feature, if any were found.
+
+6.  **conditional formatting;**
+    *done conditional formatting in columns for clear understanding.
+
 
 
 
@@ -62,5 +68,6 @@ The dataset contains information about medical appointments and whether or not p
 * Standardized date formats for appointment and scheduled dates.
 * Corrected inconsistent gender values.
 * Removed duplicate records.
+* conditional formatting.
 
 The cleaned dataset is now ready for further analysis in Excel or export to other tools to understand the factors influencing no-shows.
