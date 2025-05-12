@@ -1,0 +1,82 @@
+# 📊 Data Cleaning and Preprocessing - Sales Data
+
+## 🧩 Objective
+Clean and prepare a raw Sales dataset using **Microsoft Excel** by handling common issues like missing values, duplicates, inconsistent text formatting, and incorrect data types — to make the data suitable for analysis or modeling.
+
+---
+
+## 🛠 Tools Used
+- Microsoft Excel
+- CSV File Format
+
+---
+
+## 📁 Dataset Columns
+The dataset includes detailed sales records with the following columns:
+
+- `Order Number`
+- `Quantity Ordered`
+- `Price Each`
+- `Order Line Number`
+- `Sales`
+- `Order Date`
+- `Month_ID`
+- `Year_ID`
+- `Product Line`
+- `MSRP`
+- `Product Code`
+- `Customer Name`
+- `Phone`
+- `Address Line1`
+- `Address Line2`
+- `City`
+- `State`
+- `Postal Code`
+- `Country`
+- `Territory`
+- `Last Name`
+- `First Name`
+- `Deal Size`
+
+---
+
+## 🧹 Cleaning Steps Performed in Excel
+
+1. **Removed Duplicate Records** using Excel’s **Remove Duplicates** feature.
+2. **Handled Missing Values**:
+   - Identified empty cells using filters.
+   - Filled or removed missing data based on importance (e.g., kept important fields like `Sales`, `Order Date`, `Customer Name` complete).
+3. **Converted Date Columns** (e.g., `Order Date`) to consistent format: `dd-mm-yyyy`.
+4. **Standardized Text Columns**:
+   - Uniform casing in `City`, `State`, `Country`, and `Product Line`
+   - Trimmed extra spaces using `=TRIM()` function
+5. **Formatted Numeric Columns**:
+   - Ensured `Sales`, `Price Each`, and `MSRP` were in number format.
+   - Checked that `Quantity Ordered` and `Order Line Number` were integers.
+6. **Cleaned Column Headers**:
+   - Used consistent, lowercase, snake_case (e.g., `order_number`, `quantity_ordered`, `price_each`)
+7. **Saved Cleaned File** as `sales_data_cleaned.xlsx`
+
+---
+
+## ✅ Final Output
+- A cleaned dataset with no duplicates or major missing values.
+- All text and number formats standardized.
+- Proper date formatting across all rows.
+- Ready for use in Excel pivot tables, dashboards, or to be imported into Python for further analysis.
+
+---
+
+## 📂 Files in This Repository
+- `sales_data_cleaned.xlsx`: Final cleaned dataset
+- `README.md`: Documentation of the process and structure
+
+---
+
+## 🚀 Key Learnings
+- Developed skills in identifying and resolving real-world data quality issues in Excel.
+- Understood the importance of consistent formatting, complete data, and proper column naming.
+- Built a structured dataset that's ready for visualization, reporting, or modeling.
+
+---
+
